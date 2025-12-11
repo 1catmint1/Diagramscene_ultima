@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../diagramtextitem.h"
+#include "../../../../diagramscene_ultima_test/diagramtextitem.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 
