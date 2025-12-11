@@ -8,6 +8,8 @@ debug/findreplacedialog.o
 debug/arrow.o
 debug/diagramtextitem.o
 debug/diagramscene.o
+debug/test_diagramitem_properties.o
+debug/test_diagramitem_transform.o
 debug/qrc_diagramscene.o
 debug/moc_mainwindow.o
 debug/moc_diagramscene.o

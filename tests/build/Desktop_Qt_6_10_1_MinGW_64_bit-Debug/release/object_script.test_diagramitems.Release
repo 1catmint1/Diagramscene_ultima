@@ -8,6 +8,8 @@ release/findreplacedialog.o
 release/arrow.o
 release/diagramtextitem.o
 release/diagramscene.o
+release/test_diagramitem_properties.o
+release/test_diagramitem_transform.o
 release/qrc_diagramscene.o
 release/moc_mainwindow.o
 release/moc_diagramscene.o

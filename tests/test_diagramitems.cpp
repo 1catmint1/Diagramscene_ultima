@@ -126,5 +126,5 @@ private slots:
     }
 };
 
-QTEST_MAIN(TestDiagramItemCreation)
+// QTEST_MAIN(TestDiagramItemCreation)
 #include "test_diagramitems.moc"

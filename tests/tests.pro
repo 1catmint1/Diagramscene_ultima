@@ -15,7 +15,9 @@ SOURCES += test_diagramitems.cpp \
     ../findreplacedialog.cpp \
     ../arrow.cpp \
     ../diagramtextitem.cpp \
-    ../diagramscene.cpp
+    ../diagramscene.cpp \
+    test_diagramitem_properties.cpp \
+    test_diagramitem_transform.cpp
 
 # 把主工程的头文件列入 HEADERS 以触发 automoc 为带 Q_OBJECT 的类生成 moc 文件
 HEADERS += ../mainwindow.h \
