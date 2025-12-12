@@ -164,5 +164,5 @@ void TestDiagramItemTransform::transform()
     delete item;
 }
 
-QTEST_MAIN(TestDiagramItemTransform)
+// QTEST_MAIN(TestDiagramItemTransform)
 #include "test_diagramitem_transform.moc"
