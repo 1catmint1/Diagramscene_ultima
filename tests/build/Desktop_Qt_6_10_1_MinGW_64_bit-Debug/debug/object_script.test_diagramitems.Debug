@@ -1,4 +1,7 @@
-debug/test_diagramitems.o
+debug/test_main.o
+debug/test_scene_management.o
+debug/test_file_io.o
+debug/test_undo_redo.o
 debug/mainwindow.o
 debug/deletecommand.o
 debug/diagramitem.o

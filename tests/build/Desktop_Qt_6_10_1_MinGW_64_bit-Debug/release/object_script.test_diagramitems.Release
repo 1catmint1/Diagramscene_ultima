@@ -1,4 +1,7 @@
-release/test_diagramitems.o
+release/test_main.o
+release/test_scene_management.o
+release/test_file_io.o
+release/test_undo_redo.o
 release/mainwindow.o
 release/deletecommand.o
 release/diagramitem.o
