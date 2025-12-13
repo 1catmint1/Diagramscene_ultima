@@ -1,3 +1,11 @@
+release/test_arrow_straight_connection.o
+release/test_connectionline_style.o
+release/test_diagramitem_properties.o
+release/test_diagramitem_transform.o
+release/test_diagramitems_create.o
+release/test_diagrampath_connection.o
+release/test_diagramtextitem_edit.o
+release/test_findreplacedialog.o
 release/test_main.o
 release/test_scene_management.o
 release/test_file_io.o

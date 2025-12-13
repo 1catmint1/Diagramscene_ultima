@@ -1,3 +1,11 @@
+debug/test_arrow_straight_connection.o
+debug/test_connectionline_style.o
+debug/test_diagramitem_properties.o
+debug/test_diagramitem_transform.o
+debug/test_diagramitems_create.o
+debug/test_diagrampath_connection.o
+debug/test_diagramtextitem_edit.o
+debug/test_findreplacedialog.o
 debug/test_main.o
 debug/test_scene_management.o
 debug/test_file_io.o

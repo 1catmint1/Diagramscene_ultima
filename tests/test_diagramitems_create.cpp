@@ -126,5 +126,9 @@ private slots:
     }
 };
 
-QTEST_MAIN(TestDiagramItemCreation)
-#include "test_diagramitems.moc"
+int runDiagramItemCreationTests(int argc, char** argv)
+{
+    TestDiagramItemCreation tc;
+    return QTest::qExec(&tc, argc, argv);
+}
+#include "test_diagramitems_create.moc"
