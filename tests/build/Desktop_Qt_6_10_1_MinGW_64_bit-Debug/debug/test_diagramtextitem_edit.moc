@@ -1,0 +1,121 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'test_diagramtextitem_edit.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.10.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'test_diagramtextitem_edit.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.10.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+struct qt_meta_tag_ZN23TestDiagramTextItemEditE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto TestDiagramTextItemEdit::qt_create_metaobjectdata<qt_meta_tag_ZN23TestDiagramTextItemEditE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "TestDiagramTextItemEdit",
+        "embedded_label_on_diagram_item_can_be_set_and_styled",
+        "",
+        "standalone_textbox_annotation_can_be_added_and_edited",
+        "embedded_label_should_follow_item_when_item_moves",
+        "diagramitem_text_fields_are_updateable_when_using_internal_textite"
+        "m"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+        // Slot 'embedded_label_on_diagram_item_can_be_set_and_styled'
+        QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'standalone_textbox_annotation_can_be_added_and_edited'
+        QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'embedded_label_should_follow_item_when_item_moves'
+        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'diagramitem_text_fields_are_updateable_when_using_internal_textitem'
+        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<TestDiagramTextItemEdit, qt_meta_tag_ZN23TestDiagramTextItemEditE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject TestDiagramTextItemEdit::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN23TestDiagramTextItemEditE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN23TestDiagramTextItemEditE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN23TestDiagramTextItemEditE_t>.metaTypes,
+    nullptr
+} };
+
+void TestDiagramTextItemEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<TestDiagramTextItemEdit *>(_o);
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->embedded_label_on_diagram_item_can_be_set_and_styled(); break;
+        case 1: _t->standalone_textbox_annotation_can_be_added_and_edited(); break;
+        case 2: _t->embedded_label_should_follow_item_when_item_moves(); break;
+        case 3: _t->diagramitem_text_fields_are_updateable_when_using_internal_textitem(); break;
+        default: ;
+        }
+    }
+    (void)_a;
+}
+
+const QMetaObject *TestDiagramTextItemEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TestDiagramTextItemEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN23TestDiagramTextItemEditE_t>.strings))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int TestDiagramTextItemEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 4)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 4;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 4)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 4;
+    }
+    return _id;
+}
+QT_WARNING_POP

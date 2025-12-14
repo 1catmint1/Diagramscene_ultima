@@ -1,0 +1,14 @@
+==================== DiagramItem测试覆盖率报告 ====================
+测试时间：2025-12-14 23:13:07
+
+【公有方法覆盖率】
+已覆盖：26/26 (100.00%)
+覆盖的方法：getSize, setWidth, setHeight, setSize, mouseMoveEvent, contextMenuEvent, boundingRect, disableEvents, removeArrow, updatePathes, linkWhere, hoverMoveEvent, itemChange, removePath, setFixedSize, setRotationAngle, rectWhere, addPathes, paint, removeArrows, image, addArrow, removePathes, setBrush, rotationAngle, ableEvents
+
+【私有变量覆盖率】
+已覆盖：15/15 (100.00%)
+覆盖的变量：m_color, myDiagramType, arrows, m_tfState, showLink, m_rotationAngle, m_minSize, m_grapSize, pathes, marks, isHover, isChange, m_border, textItem, myContextMenu
+
+【总覆盖率】
+已覆盖：41/41 (100.00%)
+达标状态：✅ 达标
