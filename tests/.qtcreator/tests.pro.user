@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 18.0.1, 2025-12-13T22:37:22. -->
+<!-- Written by QtCreator 18.0.1, 2025-12-14T21:21:24. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -77,10 +77,6 @@
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitem_properties.cpp:cleanupTestCase">Unchecked</value>
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitem_properties.cpp:initTestCase">Unchecked</value>
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitem_transform.cpp:transform_data">Unchecked</value>
-    <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitems.cpp:cleanupTestCase">Unchecked</value>
-    <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitems.cpp:creation_data">Unchecked</value>
-    <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitems.cpp:initTestCase">Unchecked</value>
-    <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitems.cpp:size_data">Unchecked</value>
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitems_create.cpp:cleanupTestCase">Unchecked</value>
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitems_create.cpp:creation_data">Unchecked</value>
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_diagramitems_create.cpp:initTestCase">Unchecked</value>
@@ -91,6 +87,8 @@
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_findreplacedialog.cpp:algorithm_equivalence_data">Unchecked</value>
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_findreplacedialog.cpp:cleanupTestCase">Unchecked</value>
     <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_findreplacedialog.cpp:initTestCase">Unchecked</value>
+    <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_shortcuts.cpp:cleanupTestCase">Unchecked</value>
+    <value type="Qt::CheckState" key="1@D:/qt_project/Diagramscene_ultima/tests/test_shortcuts.cpp:initTestCase">Unchecked</value>
    </valuemap>
    <valuelist type="QVariantList" key="AutoTest.PathFilters"/>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>

@@ -17,6 +17,7 @@ SOURCES += \
     test_main.cpp \
     test_scene_management.cpp \
     test_file_io.cpp \
+    test_shortcuts.cpp \
     test_undo_redo.cpp \
     ../mainwindow.cpp \
     ../deletecommand.cpp \

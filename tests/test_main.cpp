@@ -69,7 +69,7 @@ int main(int argc, char** argv)
     extern int runSceneManagementTests(int argc, char** argv);
     extern int runFileIoTests(int argc, char** argv);
     extern int runUndoRedoTests(int argc, char** argv);
-
+    extern int runShortcutTests(int argc, char** argv);
     extern int runFindReplaceDialogTests(int argc, char** argv);
     extern int runDiagramTextItemEditTests(int argc, char** argv);
     extern int runDiagramPathConnectionTests(int argc, char** argv);
@@ -133,6 +133,6 @@ int main(int argc, char** argv)
     status |= runDiagramItemPropertiesTests(injectedArgc, injectedArgv);
     status |= runConnectionLineStyleTests(injectedArgc, injectedArgv);
     status |= runArrowStraightConnectionTests(injectedArgc, injectedArgv);
-
+    status |= runShortcutTests(injectedArgc, injectedArgv);
     return status;
 }
